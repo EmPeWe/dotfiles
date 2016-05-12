@@ -15,6 +15,7 @@ set nowrap          " don't wrap text
 set ignorecase      " Make searches case-insensitive
 set smartcase       " case sensitive with partly uppercase search patterns
 set cursorline      " highlight current line
+set list listchars=tab:→\ ,trail:·
 " inspired by https://github.com/cloudhead/dotfiles/blob/master/.vimrc
 " https://github.com/mathiasbynens/dotfiles/blob/master/.vimrc
 " https://github.com/michaeljsmalley/dotfiles/blob/master/vimrc
