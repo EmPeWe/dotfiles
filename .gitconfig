@@ -1,0 +1,18 @@
+[user]
+	name = <CHANGEME>
+	email = <CHANGEME>
+[color]
+	ui = auto
+[pack]
+	threads = 0
+[http]
+	sslVerify = false
+[push]
+	default = simple
+[alias]
+	bav = branch -av
+	pl = log --pretty=oneline --abbrev-commit --decorate --all --graph
+	nfm = merge --no-ff     # gitbu.ch page 73
+	ffm = merge --ff-only
+[merge]
+	tool = meld
