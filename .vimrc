@@ -19,3 +19,5 @@ set list listchars=tab:→\ ,trail:·
 " inspired by https://github.com/cloudhead/dotfiles/blob/master/.vimrc
 " https://github.com/mathiasbynens/dotfiles/blob/master/.vimrc
 " https://github.com/michaeljsmalley/dotfiles/blob/master/vimrc
+" Allow saving of files as sudo when I forgot to start vim using sudo. (https://stackoverflow.com/a/7078429/6330633)
+cmap w!! w !sudo tee > /dev/null %
