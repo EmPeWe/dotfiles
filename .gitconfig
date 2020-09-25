@@ -16,5 +16,6 @@
 	pl = log --pretty=oneline --abbrev-commit --decorate --all --graph
 	nfm = merge --no-ff     # gitbu.ch page 73
 	ffm = merge --ff-only
+	ci = commit -v
 [merge]
 	tool = meld
