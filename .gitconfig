@@ -19,3 +19,5 @@
 	ci = commit -v
 [merge]
 	tool = meld
+[fetch]
+        prune = true
